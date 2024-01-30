@@ -13,7 +13,7 @@
 		182E32122B68388100EB20B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E32102B68388100EB20B3 /* Main.storyboard */; };
 		182E32142B68388300EB20B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E32132B68388300EB20B3 /* Assets.xcassets */; };
 		182E32172B68388300EB20B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E32152B68388300EB20B3 /* LaunchScreen.storyboard */; };
-		182E32222B6838F100EB20B3 /* Metar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E32212B6838F100EB20B3 /* Metar.swift */; };
+		182E32222B6838F100EB20B3 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E32212B6838F100EB20B3 /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		182E32132B68388300EB20B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182E32162B68388300EB20B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182E32182B68388300EB20B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182E32212B6838F100EB20B3 /* Metar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metar.swift; sourceTree = "<group>"; };
+		182E32212B6838F100EB20B3 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		182E32232B6838F500EB20B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				182E32212B6838F100EB20B3 /* Metar.swift */,
+				182E32212B6838F100EB20B3 /* Forecast.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182E32222B6838F100EB20B3 /* Metar.swift in Sources */,
+				182E32222B6838F100EB20B3 /* Forecast.swift in Sources */,
 				182E320F2B68388100EB20B3 /* MainViewController.swift in Sources */,
 				182E320B2B68388100EB20B3 /* AppDelegate.swift in Sources */,
 				182E320D2B68388100EB20B3 /* SceneDelegate.swift in Sources */,
